@@ -350,6 +350,7 @@
                 "integrations/all/coros",
                 "integrations/all/datev",
                 "integrations/all/deel",
+                "integrations/all/deepsource",
                 "integrations/all/dialpad",
                 "integrations/all/digitalocean",
                 "integrations/all/discord",

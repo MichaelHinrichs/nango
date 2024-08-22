@@ -743,6 +743,20 @@ deel-sandbox:
     proxy:
         base_url: https://api-staging.letsdeel.com
     docs: https://docs.nango.dev/integrations/all/deel
+deepsource:
+    categories:
+        - dev-tools
+        - productivity
+    auth_mode: API_KEY
+    proxy:
+        base_url: https://api.deepsource.io
+        headers:
+            Accept: application/vnd.api+json
+            Authorization: Token Bearer=${apiKey}
+        verification:
+            method: GET
+            endpoint: /graphql/
+    docs: https://docs.nango.dev/integrations/all/deepsource
 dialpad:
     categories:
         - communication
